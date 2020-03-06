@@ -1,0 +1,115 @@
+html {
+  /* background: url("yellow-pencils.jpg") no-repeat center center fixed;
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; */
+  background-color: rgb(255, 249, 202);
+}
+
+html,
+body {
+  height: 100%;
+  margin: auto;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: nowrap;
+  height: 100%;
+  margin: auto;
+}
+
+h1 {
+  padding: 20px;
+  font-size: 4em;
+  color: rgb(255, 232, 168);
+  text-shadow: 1px 1px black;
+  letter-spacing: 0.3cm;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+
+button {
+  background: none;
+  border: none;
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+#inputbutton {
+  width: 20%;
+  height: 30px;
+  color: rgb(187, 149, 45);
+  text-shadow: 1px 1px rgb(109, 80, 0);
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 5px;
+  border-color: rgb(240, 252, 166);
+  background-color: rgb(255, 246, 170);
+}
+#inputbutton:hover {
+  cursor: pointer;
+}
+
+#newtask {
+  margin: 50px;
+  opacity: 0.2;
+  height: 20px;
+  font-size: 1.5em;
+}
+input[type="text"] {
+  width: 80%;
+  padding: 15px 22px;
+  margin: 10px 5px;
+  box-sizing: border-box;
+}
+
+ul {
+  width: 450px;
+  list-style-position: inside;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+li {
+  position: relative;
+  text-align: left;
+  background-color: rgb(255, 246, 170);
+  border-radius: 10px;
+  padding: 10px;
+  margin: 5px;
+}
+
+.txt:hover {
+  cursor: pointer;
+}
+
+.red {
+  position: absolute;
+  right: 50px;
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+.red {
+  color: rgb(187, 149, 45);
+}
